@@ -13,7 +13,7 @@
 # limitations under the License.
 
 $(call inherit-product, device/sony/lagan/device_tablet.mk)
-$(call inherit-product, vendor/sony/sgp321/sgp321-vendor.mk)
+$(call inherit-product, vendor/sony/yuga_blobs/yuga_blobs.mk)
 
 PRODUCT_NAME := full_sgp321
 PRODUCT_DEVICE := sgp321
