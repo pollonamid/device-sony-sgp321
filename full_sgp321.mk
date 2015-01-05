@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/logo.rle:root/logo.rle \
     $(LOCAL_PATH)/rootdir/system/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
-    $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
